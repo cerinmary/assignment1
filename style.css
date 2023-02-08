@@ -1,0 +1,48 @@
+header{ 
+    color: #610505;
+    height: 1.5em;
+    text-align: center;
+    background-color: #b17171;
+}
+
+.newc{
+    border: 4px black;
+    margin-right: 30%;
+    margin-left:30%;
+    margin-top: 10px;
+    float: inline-start;
+    width: 30%;
+    height:400px;
+    background-color: #e8f0a0;
+    box-shadow:0 12px 10px  #8604dd;
+    padding: 5px; 
+}
+
+.newc h1{
+font-style:italic;
+color: hsl(342, 91%, 44%);
+background-color: #5f920d;
+text-align: center;
+
+}
+.newc li{
+ font-style: italic;
+ color:#050008ef;
+ border-color: #920d0d;
+ text-align: justify;
+ 
+}
+.newc h4{
+    font-style: italic;
+    color: hsl(253, 90%, 20%);
+}
+
+div{ 
+    color: #920d0d;
+    text-align:center;
+}
+footer{
+    background-color: rgb(39, 5, 71);
+    height: 1.2em;
+    margin-top: 12%;
+}
