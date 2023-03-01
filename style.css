@@ -1,40 +1,64 @@
 header{ 
-    color: #610505;
-    height: 1.5em;
+    height: 4em;
     text-align: center;
-    background-color: #b17171;
+    background-color: #1db44b;
+    left: 0;
+    right: 0;
+    width:auto;
 }
 
 .newc{
-    border: 4px black;
     margin-right: 30%;
     margin-left:30%;
-    margin-top: 10px;
-    float: inline-start;
+    margin-top: 30px;
+    float:right;
+    width: 600px;
+    height:300px;
+    background-color: #ec88d3;
+}
+.newc1{
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 70px;
+    float:inline-end;
     width: 30%;
-    height:400px;
+    height: 300px;
     background-color: #e8f0a0;
     box-shadow:0 12px 10px  #8604dd;
     padding: 5px; 
 }
+.newc2{
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 50px;
+    float:right;
+    width: 30%;
+    height:500px;
+    background-color: #c6e975;
+    outline-style: outset;
+    outline-color: #1c41e7;
+}
+ 
 
 .newc h1{
 font-style:italic;
-color: hsl(342, 91%, 44%);
-background-color: #5f920d;
+color: hsl(241, 81%, 34%);
 text-align: center;
+}
+h2{
+    font-style:initial;
+    color: hsl(241, 81%, 34%);
+    text-align: center;
+    margin-bottom: 0%;
+    }
 
-}
-.newc li{
- font-style: italic;
- color:#050008ef;
- border-color: #920d0d;
- text-align: justify;
- 
-}
-.newc h4{
+.navc {
     font-style: italic;
     color: hsl(253, 90%, 20%);
+    font-size:x-large;
+    margin-top:0;
+    margin-bottom: 0%;
+    font-weight: bold;
 }
 
 div{ 
@@ -43,6 +67,11 @@ div{
 }
 footer{
     background-color: rgb(39, 5, 71);
-    height: 1.2em;
-    margin-top: 12%;
+    height: 1.5em;
+    bottom: 0%;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: #34cf2f;
 }
